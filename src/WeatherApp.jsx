@@ -41,7 +41,7 @@ function WeatherApp() {
       />
       <button onClick={handleSearch}>Search</button>
 
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {weather && (
         <div className="weather-cards" style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
